@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Continental pro education-center</title>
+    <meta name="description" content="">
+    <meta name="keywords"
+          content="">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles-merged.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <!--[if lt IE 9]>
+      <script src="{% static 'js/vendor/html5shiv.min.js' %}"></script>
+      <script src="{% static 'js/vendor/respond.min.js' %}"></script>
+    <![endif]-->
+</head>
+<body>
+{% block content %}
+
+{% endblock content %}
+<script src="{% static 'js/scripts.min.js' %}"></script>
+<script src="{% static 'js/main.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>
